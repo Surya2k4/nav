@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+    <title>Navbar,Backtotop</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="backtotop.css">
+</head>
+
+<body>
+    <nav class="navbar" >
+        <!-- LOGO -->
+        <img id="logo" src="logo.png" alt="Loading.."  />
+
+        <div class="logo">Infinity School Of Banking</div>
+
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <li class="menuitems"><a href="/">About</a></li>
+                <li class="menuitems"><a href="/">services</a></li>
+                <!-- <li class="services">
+                    <a href="/">Services</a>
+                    <!-- DROPDOWN MENU -->
+                <!-- <ul class="dropdown">
+                        <li><a href="/">Dropdown 1</a></li>
+                        <li><a href="/">Dropdown 2</a></li>
+                        <li><a href="/">Dropdown 3</a></li>
+                        <li><a href="/">Dropdown 4</a></li>
+                    </ul> -->
+                <!-- </li> -->
+                <li class="menuitems"><a href="/">Pricing</a></li>
+                <li class="menuitems"><a href="/">Contact</a></li>
+                <li class="menuitems"><a href="/">Help</a></li>
+                <li class="menuitems"><a href="/">Team</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div style="height: 100rem;background: rgb(16, 18, 50);"></div>
+    
+    <button id="backToTopButton" onclick="scrollToTop()">^</button> 
+    <script src="navbar.js"></script>
+</body>
+
+</html>
